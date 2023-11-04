@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import CoreConcepts from "./components/CoreConcepts";
 
-import componentsImg from "./assets/components.png";
+import { CORE_CONCEPTS } from "./data";
 
 function App() {
   return (
@@ -12,13 +12,13 @@ function App() {
           <h2>Core Concepts</h2>
           <ul>
             <CoreConcepts
-              title="Components"
-              description="The Core UI building block"
-              image={componentsImg}
+              title={CORE_CONCEPTS[0].title}
+              description={CORE_CONCEPTS[0].description}
+              image={CORE_CONCEPTS[0].image}
             />
-            <CoreConcepts title="Core Concepts" description="" />
-            <CoreConcepts title="Core Concepts" description="" />
-            <CoreConcepts title="Core Concepts" description="" />
+            <CoreConcepts {...CORE_CONCEPTS[1]} />
+            <CoreConcepts {...CORE_CONCEPTS[2]} />
+            <CoreConcepts {...CORE_CONCEPTS[3]} />
           </ul>
         </section>
       </main>
