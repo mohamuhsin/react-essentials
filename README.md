@@ -8,6 +8,6 @@ Practicing and diving deep intp React Core Concepts;
 - and other core concepts.
 
 Practicing and diving deep intp React Core Concepts; 
-- Comp
+- Co
 
 
