@@ -1,3 +1,3 @@
 # React + Vite
 
-This template provides a minimal setup to get React wo
+This template provides a minimal setup to get React 
