@@ -12,7 +12,6 @@ Practicing and diving deep into React Core Concepts;
 - JSX
 - Props
 - State
-- and ot
 
 
 
